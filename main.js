@@ -4,7 +4,7 @@ function pubSite() {
 }
 
 function pubSiteConfirmation() {
-	var monTextConfirmation = 'Souhaites-tu visiter le célèbre et unique site "XXXVIDSXXX", qui est vraiment trop bien ?';
+	var monTextConfirmation = 'Souhaites-tu visiter le célèbre et unique site "XXXVIDSXXX", qui est vraiment trop bien (Désactive le blocage de pop-up ;)) ?';
 	if(window.confirm(monTextConfirmation)){
 		window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 	}
@@ -53,4 +53,4 @@ boutonAction.onclick = function() {
 	changementGraphique();
 }
 
-/* window.setTimeout(pubSiteConfirmation, 10000); */
+window.setTimeout(pubSiteConfirmation, 10000);
